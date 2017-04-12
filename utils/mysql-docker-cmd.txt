@@ -29,7 +29,7 @@ grant all privileges on springguru.* to 'spring_guru_owner'@'localhost' identifi
 
 
 #Bash env
-export SPRING_DATASOURCE_URL=jdbc:mysql://prod-db.cttboxqr5hig.us-east-1.rds.amazonaws.com:5432/springguru
+export SPRING_DATASOURCE_URL=jdbc:postgresql://prod-db.cttboxqr5hig.us-east-1.rds.amazonaws.com:5432/springguru
 export SPRING_DATASOURCE_USERNAME=springguru_owner
 export SPRING_DATASOURCE_PASSWORD="GuruPassword"
 
